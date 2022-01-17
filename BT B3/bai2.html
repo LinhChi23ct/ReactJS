@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển</title>
+
+</head>
+<body>
+    <h1>Đăng ký du lịch</h1>
+    <table border="1">
+        <tr>
+            <td> Họ và tên</td>
+            <td><form action=""> <input name="fullname" type="text"></form></td>
+        </tr>
+
+        <tr>
+            <td> Địa chỉ</td>
+            <td><form action=""> <input name="add" type="text"></form></td>
+        </tr>
+
+        <tr>
+            <td> Phone number</td> 
+            <td><form action=""> <input name="phone" type="number"></form></td>
+        </tr>
+
+        <tr>
+            <td> Khách Việt Nam</td>
+            <td><form action=""> <input name="checkbox" value=check type="checkbox"></form></td>
+        </tr>
+
+        <tr>
+            <td> Chọn tour</td>
+            <td><form action="">
+                <select name="tour" id="datatour">
+                   <optgroup label="Miền Bắc">
+                     <option value="NTDL">Nha Trang - Đà Lạt</option>
+                     <option value="BMT">Buôn Mê Thuột - Gia Lai - Kon Tum</option>
+                   </optgroup>
+                </select> </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Phương tiện</td>
+            <td><form action="">
+                <input type="radio" value="máy bay" name="máy bay">Máy bay
+                <input type="radio" value="ô tô" name="ô tô">Ô tô
+            </form></td>
+        </tr>
+
+        <tr>
+            <td> Chọn sản phẩm tham gia</td>
+            <td><form action=""> <input type="text"></form></td>
+        </tr>
+
+        <tr>
+            <td> Ghi chú thêm</td>
+            <td><form action=""> <input type="text"></form></td>
+        </tr>
+
+        <tr> 
+            <td><button>Đăng nhập</button></td>
+        </tr>
+    </table>
+</body>
+</html>
