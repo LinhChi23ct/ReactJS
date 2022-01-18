@@ -51,18 +51,45 @@
         </tr>
 
         <tr>
-            <td> Chọn sản phẩm tham gia</td>
-            <td><form action=""> <input type="text"></form></td>
+            <td colspan="2" class="quantity">
+                <div> Chọn sản phẩm tham gia</div>
+                <div class="form-quantity">
+                   <form action="">Người lớn<input name="Nguời lớn" type="number"></form>
+                   <form action="">Trẻ em <input name="Trẻ em" type="number"></form>
+                </div>
+            </td>
+            
         </tr>
 
         <tr>
             <td> Ghi chú thêm</td>
-            <td><form action=""> <input type="text"></form></td>
+            <td><form action=""> 
+                <textarea name="add note" id="note" cols="30" rows="4"></textarea>
+            </form></td>
         </tr>
 
         <tr> 
-            <td><button>Đăng nhập</button></td>
+            <td colspan="2"><button>Đăng nhập</button></td>
+        </tr>
+
+        <tr> 
+            <td colspan="2"><div>Bạn đã đăng ký thành công!!!</div></td>
         </tr>
     </table>
 </body>
+<style> 
+
+      .quantity{
+        border: 1px solid black;
+       }
+               
+      form{
+        float: left;
+       }
+
+      input .{
+        width: 20px;
+
+       }
+ </style>
 </html>
